@@ -28,8 +28,15 @@ header {
     text-align:  right;
 }
 
-#cart{
-    text-align:  left;
+#cart-container {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -120,10 +127,11 @@ header a {
     color:  white;
 }
 #cart-contents {
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 300px;
+    padding-right: 300px;
     text-align: center;
     font-size: 16px;
+    background-color: transparent;
 }
 #about-us{
     padding-left: 500px;
@@ -153,6 +161,9 @@ td {
     width: 200px;
     text-align: center;
 }
+
 #empty-td {
     background-color: transparent;
+    text-align:  center;
 }
+
