@@ -1,7 +1,15 @@
-PUI Assignment 5 README
-Home page: home.html (click "Cookies" to go to product browsing, the cookie image to go to product detail)
+PUI Assignment 6 README
+
+Home page: home.html (click "Cookies" to go to product browsing, the cookie image to go to product detail, shopping cart to go to cart)
+
 Product browsing: product-browsing.html
+
 Product detail: product-detail.html
 
-extra: added a hover feature for the product so that it lists ingredients on product detail page
-extra: about us page
+Cart page: cart.html
+
+
+
+New features: adding/subtracting quantities of items, changing the frequency, removing items (on cart page), number next to cart reflects number of items in cart
+
+TODO: local storage
